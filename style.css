@@ -1,0 +1,409 @@
+:root{
+    font-size: 62.5%;
+    color: #fff;
+}
+
+body{
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.left-logo{
+    margin-left: 15rem;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+.nav-list li{
+    font-size: 1.3rem;
+    list-style: none;
+    margin-right: 5rem;
+    text-transform: uppercase;
+    
+}
+
+.li-active::after{
+    content: "\25BC";
+    margin-left: .8rem;
+
+}
+
+/* hero section  */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.left-img img{
+    width: 50rem;
+}
+
+.hero-right{
+    width: 50rem;
+    margin-top: 5rem;
+}
+
+.hero-right h6{
+    font-size: 1.6rem;
+    color: #ff0000;
+    margin: 0;
+}
+
+.hero-right h1{
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.hero-right p{
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.button{
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    color: #fff;
+    background-color: #c91b28;
+    cursor: pointer;
+    border: none;
+}
+
+
+.cards{
+    background-color: #181818;
+    height: 100rem;
+    width: 82rem;
+    /* margin-left: 5rem;  */
+    position: relative;
+}
+
+
+.container{
+    display: flex;
+    justify-content:center;
+    gap: 5rem;
+    position: absolute;
+    left: 20rem;
+    top: 10rem;
+}
+
+.ui-design{
+    display: block;
+    height: 35rem;
+    width: 35rem;
+    background-color: #1e1e1e;
+    padding: 2rem 2rem 0 2rem;
+  
+}
+.ui-design-icon{
+    width: 7rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+.heading{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-top: .5rem;
+    margin-left: 2rem;
+}
+
+.description{
+    font-size: 1.6rem;
+    width: 30rem;
+    margin-left: 2rem;
+}
+
+.btn{
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+.btn::after{
+    content: "\27A1";
+    margin-left: 1rem;
+}
+
+.product-design{
+    background-color: #c91b28;
+    height: 35rem;
+    width: 35rem;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.product-design-icon{
+    width: 9rem;
+    margin: 0;
+    margin-top: 4rem;
+}
+
+.btn-active{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+.btn-active::after{
+    content: "\27A1";
+    margin-left: 1rem;
+}
+
+.branding{
+    height: 35rem;
+    width: 35rem;
+    background-color: #1e1e1e;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.branding-img{
+    width: 7rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+/* container-2 */
+
+.container-2{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15rem;
+    position: absolute;
+    top: 60rem;
+    left: 20rem;
+}
+
+.left-sec{
+   text-align: center;
+   width: 30rem;
+   height: 25em;
+   /* border: 1px solid #fff; */
+   margin-top: 3.5rem;
+}
+
+.num{
+    font-size: 13rem;
+    color: #ef4040;
+    margin: 0;
+    text-align: center;
+}
+
+.container-2-desc{
+    text-transform: capitalize;
+    margin: 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.right-sec{
+    display: grid;
+    grid-template-columns: 40rem 40rem;
+    grid-template-rows: 15rem 15rem;
+    grid-column-gap: 2rem;
+    grid-row-gap:2rem ;
+}
+
+.sec{
+    background-color: #1e1e1e;
+}
+
+.sec-num{
+    text-align: center;
+    font-size: 4rem;
+    color: #db3d3d;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.sec-desc{
+    text-align: center;
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+/* featured section */
+
+.featured{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.featured h2{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.featured p{
+    font-size: 1.6rem;
+}
+
+/* featured container  */
+
+.featured-containers{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 65rem 65rem;
+    grid-template-rows: 60rem;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.vintage{
+    height: 45rem;
+    width: 57rem;
+    background-color: #1e1e1e;
+    position: relative;
+}
+
+.vintage-img{
+    width: 50rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.vintage-head{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.btn-vintage{
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.btn-vintage::after{
+    content: "\27A1";
+    margin-left: 1rem;
+}
+
+/* next project section  */
+
+.next-project{
+    position: relative;
+}
+
+.next-project-container{
+    background-color: #1e1e1e;
+    height: 30rem;
+    width: 130rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 30rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-project{
+    width: 55rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-project h1{
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+
+.left-project p{
+    font-size: 1.6rem;
+}
+
+.right-project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* bottom navigation  */
+
+.bottom{
+    margin-top: 50rem;
+}
+
+.bottom nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.bottom nav ul li{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+/* footer section */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 45rem;
+    background-color: #1e1e1e;
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.left-footer{
+    margin-left: -52rem;
+    margin-top: 3rem;
+}
+.right-footer{
+    margin-top: 4rem;
+}
+
+.bottom-social-media-icons{
+    margin-right: 4rem;
+    width: 2.8rem;
+}
+
+
+
+
+/* .card-bor{
+    border: 1px solid #fff;
+    height: 130vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+} */
